@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=dev-width,initial-scale=1">
+        <meta name="keywords" content="Cookies">
+        <meta name="author" content="Xiaofang Yang">
+        <meta name="description" content="Cookies, javascript">
+        <title>Cookies</title>
+        <link rel="stylesheet" href="./assets/style/index.css">
+        <script src="./assets/script/index.js" defer></script>
+    </head>
+    <body>
+        <main class="hero">
+            <div class="container">
+                <div class="center">
+                    A <span class="purple">cookie</span> is a small piece of text sent to your browser by a website you visit. It helps
+                    the site remember <span class="orange">information</span> about your visit, which can make it easier to visit the site
+                    again and make the site more <span class="green">useful</span> to you.
+                </div>
+            </div>  
+        </main>
+        <!--modal-->
+        <div class="modal-container">
+            <div id="model" class="model">
+                <div id="div-cookie">
+                    <div><h2>Cookies</h2></div>
+                    <div class="info">
+                        We use cookies to improve your experience on our website. By clicking "Accept", you agree to the use of cookies for 
+                        marketing and analytics purposes.
+                    </div>
+                    <div class="modal-center">
+                        <input type="button" name="accept" id="accept" value="Accept">
+                        <input type="button" name="setting" id="setting" value="Settings">
+                    </div>
+                </div>
+                <div id="div-setting">
+                    <div><h2>Settings</h2></div>
+                    <div class="info">
+                        <div class="row">
+                            <div class="column">Browser:</div>
+                            <div class="column right">
+                                <label class="switch">
+                                    <input type="checkbox" id="browser">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">Operatings system:</div>
+                            <div class="column right">
+                                <label class="switch">
+                                    <input type="checkbox" id="os">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">Screen width:</div>
+                            <div class="column right">
+                                <label class="switch">
+                                    <input type="checkbox" id="screenW">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">Screen height:</div>
+                            <div class="column right">
+                                <label class="switch">
+                                    <input type="checkbox" id="screenH">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-center">
+                        <input type="button" name="save" id="save" value="Save perferences">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
