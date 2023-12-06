@@ -35,10 +35,14 @@ const btnSave = selectById('save');
 
 
 onEvent('load',window,function(){
+    
     if (!document.cookie) {
-        modalContainer.classList.add('model_show');
-        model.classList.add('modal-transform');
-        center.classList.add('filter');
+        setTimeout(function(){
+            modalContainer.classList.add('model_show');
+            model.classList.add('modal-transform');
+            center.classList.add('filter');
+        }, 2000);
+        
     }
 });
 
