@@ -63,7 +63,7 @@ onEvent('click',btnSave, function() {
     setCookie('Browser', browser.checked ? getBrowser() : 'rejects', 15);
     setCookie('OS', os.checked ? getOS() : 'rejects', 15);
     setCookie('ScreenW', screenW.checked ? window.innerWidth : 'rejects', 15);
-    setCookie('ScreenH', screenW.checked ? window.innerHeight : 'rejects', 15);
+    setCookie('ScreenH', screenH.checked ? window.innerHeight : 'rejects', 15);
     
     console.log(`Browser: ${getCookie('Browser')}`);
     console.log(`OS: ${getCookie('OS')}`);
